@@ -1,0 +1,113 @@
+2024-05-16T13:54:24.904+03:00  INFO 13836 --- [main] org.example.SpringMock                   : Starting SpringMock using Java 22.0.1 with PID 13836 (C:\Users\davyd\IdeaProjects\AuthMock\target\classes started by davyd in C:\Users\davyd\IdeaProjects\AuthMock)
+2024-05-16T13:54:24.909+03:00  INFO 13836 --- [main] org.example.SpringMock                   : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T13:54:27.170+03:00  INFO 13836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-16T13:54:27.193+03:00  INFO 13836 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T13:54:27.194+03:00  INFO 13836 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-05-16T13:54:27.371+03:00  INFO 13836 --- [main] o.a.c.c.C.[.[localhost].[/auth_mock]     : Initializing Spring embedded WebApplicationContext
+2024-05-16T13:54:27.373+03:00  INFO 13836 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2340 ms
+2024-05-16T13:54:28.066+03:00  WARN 13836 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-16T13:54:28.206+03:00  INFO 13836 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/auth_mock'
+2024-05-16T13:54:28.220+03:00  INFO 13836 --- [main] org.example.SpringMock                   : Started SpringMock in 4.432 seconds (process running for 6.298)
+2024-05-16T13:55:46.296+03:00  INFO 13836 --- [http-nio-8081-exec-6] o.a.c.c.C.[.[localhost].[/auth_mock]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-16T13:55:46.297+03:00  INFO 13836 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-16T13:55:46.299+03:00  INFO 13836 --- [http-nio-8081-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-16T13:56:02.688+03:00  WARN 13836 --- [http-nio-8081-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized field "fdsaf" (class org.example.models.Request), not marked as ignorable]
+2024-05-16T13:56:19.387+03:00  INFO 5688 --- [main] org.example.SpringMock                   : Starting SpringMock using Java 22.0.1 with PID 5688 (C:\Users\davyd\IdeaProjects\AuthMock\target\classes started by davyd in C:\Users\davyd\IdeaProjects\AuthMock)
+2024-05-16T13:56:19.393+03:00  INFO 5688 --- [main] org.example.SpringMock                   : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T13:56:22.587+03:00  INFO 5688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-16T13:56:22.649+03:00  INFO 5688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T13:56:22.653+03:00  INFO 5688 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-05-16T13:56:23.005+03:00  INFO 5688 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T13:56:23.007+03:00  INFO 5688 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3467 ms
+2024-05-16T13:56:24.048+03:00  WARN 5688 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-16T13:56:24.210+03:00  INFO 5688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-16T13:56:24.225+03:00  INFO 5688 --- [main] org.example.SpringMock                   : Started SpringMock in 5.975 seconds (process running for 7.457)
+2024-05-16T13:56:52.965+03:00  INFO 5688 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-16T13:56:52.966+03:00  INFO 5688 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-16T13:56:52.968+03:00  INFO 5688 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-16T13:56:59.775+03:00  WARN 5688 --- [http-nio-8081-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized field "fdsaf" (class org.example.models.Request), not marked as ignorable]
+2024-05-16T13:57:53.796+03:00  INFO 6940 --- [main] org.example.SpringMock                   : Starting SpringMock using Java 22.0.1 with PID 6940 (C:\Users\davyd\IdeaProjects\AuthMock\target\classes started by davyd in C:\Users\davyd\IdeaProjects\AuthMock)
+2024-05-16T13:57:53.800+03:00  INFO 6940 --- [main] org.example.SpringMock                   : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T13:57:55.938+03:00  INFO 6940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-16T13:57:55.984+03:00  INFO 6940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T13:57:55.985+03:00  INFO 6940 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-05-16T13:57:56.172+03:00  INFO 6940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T13:57:56.173+03:00  INFO 6940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2254 ms
+2024-05-16T13:57:56.876+03:00  WARN 6940 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-16T13:57:57.017+03:00  INFO 6940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-16T13:57:57.032+03:00  INFO 6940 --- [main] org.example.SpringMock                   : Started SpringMock in 4.292 seconds (process running for 5.812)
+2024-05-16T13:58:02.271+03:00  INFO 6940 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-16T13:58:02.271+03:00  INFO 6940 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-16T13:58:02.275+03:00  INFO 6940 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-05-16T13:58:02.663+03:00  WARN 6940 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.example.models.ResponseForm> org.example.Controller.AuthMockController.postForm(org.example.models.Request): [Field error in object 'request' on field 'password': rejected value [null]; codes [NotNull.request.password,NotNull.password,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [request.password,password]; arguments []; default message [password]]; default message [must not be null]] ]
+2024-05-16T13:58:19.272+03:00  WARN 6940 --- [http-nio-8081-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized field "dsaf" (class org.example.models.Request), not marked as ignorable]
+2024-05-16T15:43:23.651+03:00  INFO 11280 --- [main] org.example.SpringMock                   : Starting SpringMock using Java 22.0.1 with PID 11280 (C:\Users\davyd\IdeaProjects\AuthMock\target\classes started by davyd in C:\Users\davyd\IdeaProjects\AuthMock)
+2024-05-16T15:43:23.657+03:00  INFO 11280 --- [main] org.example.SpringMock                   : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T15:43:25.831+03:00  INFO 11280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-16T15:43:25.850+03:00  INFO 11280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T15:43:25.850+03:00  INFO 11280 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-05-16T15:43:26.030+03:00  INFO 11280 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T15:43:26.032+03:00  INFO 11280 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2249 ms
+2024-05-16T15:43:26.786+03:00  WARN 11280 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-16T15:43:26.937+03:00  INFO 11280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-16T15:43:26.951+03:00  INFO 11280 --- [main] org.example.SpringMock                   : Started SpringMock in 4.474 seconds (process running for 6.246)
+2024-05-16T15:43:31.256+03:00  INFO 11280 --- [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-16T15:43:31.257+03:00  INFO 11280 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-16T15:43:31.259+03:00  INFO 11280 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-16T15:43:31.509+03:00  WARN 11280 --- [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized field "dsaf" (class org.example.models.Request), not marked as ignorable]
+2024-05-16T15:44:11.692+03:00  INFO 8580 --- [main] org.example.SpringMock                   : Starting SpringMock using Java 22.0.1 with PID 8580 (C:\Users\davyd\IdeaProjects\AuthMock\target\classes started by davyd in C:\Users\davyd\IdeaProjects\AuthMock)
+2024-05-16T15:44:11.697+03:00  INFO 8580 --- [main] org.example.SpringMock                   : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T15:44:14.197+03:00  INFO 8580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-16T15:44:14.219+03:00  INFO 8580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T15:44:14.221+03:00  INFO 8580 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-05-16T15:44:14.480+03:00  INFO 8580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T15:44:14.481+03:00  INFO 8580 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2651 ms
+2024-05-16T15:44:15.365+03:00  WARN 8580 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-16T15:44:15.537+03:00  INFO 8580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-16T15:44:15.553+03:00  INFO 8580 --- [main] org.example.SpringMock                   : Started SpringMock in 4.968 seconds (process running for 6.518)
+2024-05-16T15:44:18.583+03:00  INFO 8580 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-16T15:44:18.583+03:00  INFO 8580 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-16T15:44:18.585+03:00  INFO 8580 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-16T15:44:41.423+03:00  INFO 9408 --- [main] org.example.SpringMock                   : Starting SpringMock using Java 22.0.1 with PID 9408 (C:\Users\davyd\IdeaProjects\AuthMock\target\classes started by davyd in C:\Users\davyd\IdeaProjects\AuthMock)
+2024-05-16T15:44:41.427+03:00  INFO 9408 --- [main] org.example.SpringMock                   : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T15:44:43.547+03:00  INFO 9408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-16T15:44:43.566+03:00  INFO 9408 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T15:44:43.567+03:00  INFO 9408 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-05-16T15:44:43.737+03:00  INFO 9408 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T15:44:43.738+03:00  INFO 9408 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2191 ms
+2024-05-16T15:44:44.738+03:00  WARN 9408 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-16T15:44:44.887+03:00  INFO 9408 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-16T15:44:44.902+03:00  INFO 9408 --- [main] org.example.SpringMock                   : Started SpringMock in 4.487 seconds (process running for 6.046)
+2024-05-16T15:44:46.900+03:00  INFO 9408 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-16T15:44:46.902+03:00  INFO 9408 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-16T15:44:46.904+03:00  INFO 9408 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-16T15:44:47.398+03:00  WARN 9408 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.example.models.ResponseForm> org.example.Controller.AuthMockController.postForm(org.example.models.Request): [Field error in object 'request' on field 'password': rejected value [null]; codes [NotNull.request.password,NotNull.password,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [request.password,password]; arguments []; default message [password]]; default message [must not be null]] ]
+2024-05-16T15:44:57.441+03:00  WARN 9408 --- [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized field "fsd" (class org.example.models.Request), not marked as ignorable]
+2024-05-16T15:45:50.484+03:00  INFO 8484 --- [main] org.example.SpringMock                   : Starting SpringMock using Java 22.0.1 with PID 8484 (C:\Users\davyd\IdeaProjects\AuthMock\target\classes started by davyd in C:\Users\davyd\IdeaProjects\AuthMock)
+2024-05-16T15:45:50.490+03:00  INFO 8484 --- [main] org.example.SpringMock                   : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T15:45:52.861+03:00  INFO 8484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-16T15:45:52.885+03:00  INFO 8484 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T15:45:52.886+03:00  INFO 8484 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-05-16T15:45:53.076+03:00  INFO 8484 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T15:45:53.077+03:00  INFO 8484 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2448 ms
+2024-05-16T15:45:53.852+03:00  WARN 8484 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-16T15:45:54.018+03:00  INFO 8484 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-16T15:45:54.032+03:00  INFO 8484 --- [main] org.example.SpringMock                   : Started SpringMock in 4.595 seconds (process running for 6.106)
+2024-05-16T15:45:57.366+03:00  INFO 8484 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-16T15:45:57.367+03:00  INFO 8484 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-16T15:45:57.369+03:00  INFO 8484 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-16T15:46:07.849+03:00  WARN 8484 --- [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.example.models.ResponseForm> org.example.Controller.AuthMockController.postForm(org.example.models.Request): [Field error in object 'request' on field 'password': rejected value [null]; codes [NotNull.request.password,NotNull.password,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [request.password,password]; arguments []; default message [password]]; default message [must not be null]] ]
+2024-05-16T15:46:35.983+03:00  INFO 4168 --- [main] org.example.SpringMock                   : Starting SpringMock using Java 22.0.1 with PID 4168 (C:\Users\davyd\IdeaProjects\AuthMock\target\classes started by davyd in C:\Users\davyd\IdeaProjects\AuthMock)
+2024-05-16T15:46:35.987+03:00  INFO 4168 --- [main] org.example.SpringMock                   : No active profile set, falling back to 1 default profile: "default"
+2024-05-16T15:46:38.542+03:00  INFO 4168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2024-05-16T15:46:38.565+03:00  INFO 4168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-16T15:46:38.567+03:00  INFO 4168 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2024-05-16T15:46:38.762+03:00  INFO 4168 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-16T15:46:38.764+03:00  INFO 4168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2645 ms
+2024-05-16T15:46:39.559+03:00  WARN 4168 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-16T15:46:39.716+03:00  INFO 4168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2024-05-16T15:46:39.732+03:00  INFO 4168 --- [main] org.example.SpringMock                   : Started SpringMock in 4.808 seconds (process running for 6.259)
+2024-05-16T15:46:41.986+03:00  INFO 4168 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-16T15:46:41.986+03:00  INFO 4168 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-16T15:46:41.988+03:00  INFO 4168 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-16T15:46:42.385+03:00  WARN 4168 --- [http-nio-8081-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<org.example.models.ResponseForm> org.example.Controller.AuthMockController.postForm(org.example.models.Request): [Field error in object 'request' on field 'password': rejected value []; codes [NotBlank.request.password,NotBlank.password,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [request.password,password]; arguments []; default message [password]]; default message [must not be blank]] ]
