@@ -2,8 +2,8 @@ package org.example.models;
 
 
 public class StaticForm {
-    private final String login = "login";
-    private final String password = "password";
+    private String login;
+    private String password;
 
     public String getLogin() {
         return login;
@@ -13,6 +13,22 @@ public class StaticForm {
         return password;
     }
 
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     public StaticForm() {
+        this.login = "login";
+        this.password = "password";
+        return;
+    }
+
+    public StaticForm(String login, String password) {
+        this.login = login;
+        this.password = password;
     }
 }

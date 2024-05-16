@@ -34,7 +34,7 @@ public class ResponseForm {
         this.date = dtf.format(now);
     }
 
-    public ResponseForm(){
+    public ResponseForm() {
     }
 
     public ResponseForm(String login, String password) {
