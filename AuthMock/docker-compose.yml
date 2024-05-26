@@ -1,0 +1,21 @@
+# docker-compose.yml
+version: '3.8'
+services:
+   auth_mock-api:
+    command:
+      - '/bin/sh'
+      - '-c'
+      - '/bin/sleep 30'
+    deploy:
+      restart_policy:
+        condition: on-failure
+        max_attempts: 10
+        delay: 30s
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8778:8778"
+      - "8010:8080"
+    container_name:
+      auth_mock-api

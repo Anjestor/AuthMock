@@ -5,7 +5,9 @@ import java.time.format.DateTimeFormatter;
 
 public class ResponseForm {
     private String login;
+
     private String password;
+
     private String date;
 
     public String getLogin(){
