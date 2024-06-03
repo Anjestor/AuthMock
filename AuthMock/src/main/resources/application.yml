@@ -5,9 +5,11 @@ server:
 spring:
   application:
     name: auth_mock-api
-  jackson:
-    deserialization:
-      fail-on-unknown-properties: true
 logging:
   file:
     name: logs/auth_mock-api.log
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus,health,info,metric
