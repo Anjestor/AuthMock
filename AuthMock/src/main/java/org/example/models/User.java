@@ -41,6 +41,11 @@ public class User {
         this.email = email;
     }
 
+    public String userData() {
+        return String.format("{\"login\": \"%s\", \"password\": \"%s\", \"date\": \"%s\", \"email\": \"%s\"}",
+                this.getLogin(), this.getPassword(), this.getDate(), this.getEmail());
+    }
+
     public User() {
     }
 
